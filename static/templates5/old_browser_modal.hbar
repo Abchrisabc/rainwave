@@ -1,0 +1,1 @@
+<p>{{ $l("please_upgrade_browser") }}</p>

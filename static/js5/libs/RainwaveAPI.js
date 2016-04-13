@@ -27,6 +27,10 @@ var RainwaveAPI = function() {
 	// Module Init  ******************************************************************************************
 
 	self.initialize = function(sid, userID, apiKey, data, host) {
+		if (!WebSocket) {
+			throw "No WebSocket Support.";
+		}
+
 		_sid = sid;
 		_userID = userID;
 		_apiKey = apiKey;

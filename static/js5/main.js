@@ -16,6 +16,11 @@ var RWAudio;
 	var template;
 
 	var initialize = function() {
+		if (!WebSocket || !document.body.classList) {
+			Modal($l("please_upgrade_browser_header"), "old_browser_modal", null, true);
+			return;
+		}
+
 		// this global API variable name and the function renaming
 		// was required after the API changed to something useable
 		// by the outside world.

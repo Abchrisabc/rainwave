@@ -64,6 +64,9 @@
    "search_string_too_short"                         : "Search must be 3 or more letters.",
    "search_result_limit"                             : "(too many results.  please refine your search.)",
 
+   "please_upgrade_browser_header"                   : "Message from Rainwave",
+   "please_upgrade_browser"                          : "Please upgrade your browser to the latest Firefox or Chrome to use Rainwave.",
+
    "__comment__"                 : "Error pop-up when Rainwave goes crashes.",
 
    "oops"                                            : "Oops",

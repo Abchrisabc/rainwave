@@ -52,6 +52,7 @@
     "Requests": true,
     "Router": true,
     "RWAudio": true,
+    "RWAudioConstructor": true,
     "RWEvent": true,
     "RWTemplates": true,
     "Scrollbar": true,
